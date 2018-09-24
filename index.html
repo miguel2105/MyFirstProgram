@@ -2,35 +2,36 @@
 <html>
 
 <head>
-    <title>MyFirst Web Application</title>
+    <title>My First Web Application</title>
     <style>
         * {
             margin: 0px;
             padding: 0px;
         }
 
-        html,
         body {
             width: 100vw;
             height: 100vh;
-            background-color: #ccc;
+            background-color: #e6e2e2;
         }
 
         .app-container-grid {
             display: grid;
             grid-template-columns: 1fr 6fr 2fr;
             grid-template-rows: 1fr 7fr 1fr;
-            height; 100vh;
+            height: 100vh;
         }
         .main-header, .main-footer {
-            background-color: #b3aaaa;
+            background-color: #9d9b9b;
         }
-        .main-header, .main-container-grid, .main-footer {
+        .main-header,
+        .main-container-grid,
+        .main-footer {
             grid-column: 1 / 4;
         }
 
         .main-container-grid {
-            align-self:center;
+            align-self: center;
             justify-self: center;
         }
     </style>
@@ -39,7 +40,7 @@
 <body>
     <div class="app-container-grid">
         <header class="main-header">
-            <span>LOGO LOGO LOGO LOGO</span>
+            <span>LOGO</span>
         </header>
         <div class="main-container-grid">
             middle
@@ -47,8 +48,6 @@
         <footer class="main-footer">
             footer text
         </footer>
-        
-        </div>
     </div>
 </body>
 
